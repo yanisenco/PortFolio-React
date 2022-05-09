@@ -1,0 +1,8 @@
+.bouton {
+    transition: transform 550ms;
+}
+
+.bouton:hover {
+    transition: transform 550ms;
+    transform: rotate(10deg) scale(1.2);
+}
