@@ -1,13 +1,12 @@
-
-import React, { useState } from 'react';
+import React from 'react';
 
 import IconHTML from '../assets/images/icons8-html-5.svg';
 import IconCSS from '../assets/images/icons8-css3.svg';
 import IconPYTHON from '../assets/images/icons8-python.svg';
-import IconREACT from '../assets/images/icons8-react-native.svg';
-import HeaderCodeConnu from '../components/HeaderCodeConnu';
-import BoutonCodeConnu from '../components/BoutonCodeConnu';
-import JsonData from '../components/data/données';
+//import IconREACT from 'src/assets/images/icons8-react-native.svg';
+import HeaderCodeConnu from '../components/organisme/HeaderCodeConnu';
+import BoutonCodeConnu from '../components/organisme/BoutonCodeConnu';
+import JsonData from '../assets/texte/données';
 
 
 const CodeConnu = () => {

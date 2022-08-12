@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import IconCode from '../assets/images/icons8-code-96.png';
-import IconCv from '../assets/images/icons8-cv-96.png';
-import IconContact from '../assets/images/icons8-linkedin-96.png';
+import IconCode from '../../assets/images/dev.svg';
+import IconCv from '../../assets/images/cv.svg';
+import IconContact from '../../assets/images/linkedin.svg';
 
 const NavigationHeader = () => {
     return (

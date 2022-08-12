@@ -1,5 +1,5 @@
 import React from 'react';
-import photocv from '../assets/images/photocv.jpg';
+import photocv from '../../assets/images/photocv.jpg';
 
 const HeaderHomePage = () => {
     return (

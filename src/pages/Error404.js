@@ -1,5 +1,5 @@
 import React from 'react';
-import SystemeError from '../components/SystemeError';
+import SystemeError from '../components/template/SystemeError';
 
 const Error404 = () => {
     return (
