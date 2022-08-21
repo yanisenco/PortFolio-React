@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PersonnalModal from './Modal';
+import PersonnalModal from 'src/components/organisme/Modal';
 import BoutonImage from 'src/components/atom/boutonRond/BoutonRond'
 
 const BoutonCodeConnu = (

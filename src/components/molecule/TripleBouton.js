@@ -1,5 +1,5 @@
 import React from 'react';
-import BoutonRond from '../atom/boutonRond/BoutonRond';
+import BoutonRond from 'src/components/atom/boutonRond/BoutonRond';
 
 const TripleBouton = ({ CloseButton, MinimizeButton, ContrastButton }) => {
      

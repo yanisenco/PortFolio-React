@@ -1,5 +1,5 @@
 import React from 'react';
-import BoutonBackHome from '../atom/BoutonBackHome';
+import BoutonBackHome from '../atom/boutonBackHome/BoutonBackHome';
 
 const SystemeError = () => {
     return (
