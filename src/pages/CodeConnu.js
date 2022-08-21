@@ -1,12 +1,12 @@
 import React from 'react';
 
-import IconHTML from '../assets/images/icons8-html-5.svg';
-import IconCSS from '../assets/images/icons8-css3.svg';
-import IconPYTHON from '../assets/images/icons8-python.svg';
+import IconHTML from 'src/assets/images/icons8-html-5.svg';
+import IconCSS from 'src/assets/images/icons8-css3.svg';
+import IconPYTHON from 'src/assets/images/icons8-python.svg';
 //import IconREACT from 'src/assets/images/icons8-react-native.svg';
-import HeaderCodeConnu from '../components/organisme/HeaderCodeConnu';
-import BoutonCodeConnu from '../components/organisme/BoutonCodeConnu';
-import JsonData from '../assets/texte/données';
+import HeaderCodeConnu from 'src/components/organisme/HeaderCodeConnu';
+import BoutonCodeConnu from 'src/components/organisme/BoutonCodeConnu';
+import JsonData from 'src/assets/texte/données';
 
 
 const CodeConnu = () => {
