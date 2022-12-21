@@ -12,7 +12,13 @@ const PersonnalModal = (
         <div className={contrast ? "fixed inset-0 bg-stone-700/[.8] duration-300" : "fixed inset-0 bg-stone-500/[.8] duration-300"}>
             <div className={grow ? "fixed inset-0 bg-slate-900 duration-300" : "fixed top-26 left-62 right-62 bottom-26 bg-slate-900 rounded-xl duration-300"}>
 
-                <TripleBouton CloseButton={CloseButton} MinimizeButton={setStateGrow} ContrastButton={setStateContrast} />
+                <TripleBouton
+                    CloseButton={CloseButton}
+                    MinimizeButton={setStateGrow}
+                    ContrastButton={setStateContrast}
+                    CloseButtonColor='bg-red-600 hover:bg-red-900'
+                    MinimizeButtonColor='bg-orange-600 hover:bg-orange-900'
+                    ContrastButtonColor='bg-green-600 hover:bg-green-900' />
                 <h5 className='text-slate-200 text-6xl text-center'>{ModalNameTitle}</h5>
                 <div className='text-slate-200 mt-5 text-4xl text-center'>{ModalNameContent}</div>
 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import PersonnalModal from 'src/components/organisme/Modal';
-import BoutonImage from 'src/components/atom/boutonRond/BoutonRond'
 
 const BoutonCodeConnu = (
     { ImageSource, ModalNameTitle, ModalNameContent }
@@ -10,9 +9,8 @@ const BoutonCodeConnu = (
 
     return (
         <>
-        <BoutonImage/>
             <button onClick={() => { setIsOpen(true) }} >
-                <img src={ImageSource} className="duration-300 hover:duration-300 hover:-rotate-12 hover:scale-110" />
+                <img src={ImageSource} className="duration-300 hover:duration-300 hover:-rotate-12 hover:scale-110" alt=""/>
             </button>
             {
                 openModal && <PersonnalModal ModalNameTitle={ModalNameTitle} ModalNameContent={ModalNameContent} CloseButton={setIsOpen} />

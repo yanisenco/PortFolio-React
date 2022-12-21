@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "baseUrl": "C:/dev/portfolio react/PortFolio-React"
+        "baseUrl": "C:/dev/PortFolio-React"
     },
     "include": [
-        "C:/dev/portfolio react/PortFolio-React"
+        "C:/dev/PortFolio-React"
     ]
 }
