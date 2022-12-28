@@ -10,7 +10,7 @@ const PersonnalModal = (
 
     return (
         <div className={contrast ? "fixed inset-0 bg-stone-700/[.8] duration-300" : "fixed inset-0 bg-stone-500/[.8] duration-300"}>
-            <div className={grow ? "fixed inset-0 bg-slate-900 duration-300" : "fixed top-26 left-62 right-62 bottom-26 bg-slate-900 rounded-xl duration-300"}>
+            <div className={grow ? "fixed inset-0 bg-slate-900 duration-300" : "fixed h-5/6 w-5/6 bg-slate-900 rounded-xl duration-300"}>
 
                 <TripleBouton
                     CloseButton={CloseButton}

@@ -6,9 +6,9 @@ const HeaderHomePage = () => {
 
         <div>
 
-            <h1 className='text-indigo-500/100 text-6xl text-center mt-7 mb-7'> Welcome to my PortFolio</h1>
+            <h1 className='text-white text-6xl text-center mt-7 mb-7'> Welcome to my PortFolio</h1>
 
-            <img className='rounded-full w-40 m-auto shadow-lg shadow-indigo-500/100' src={photocv} alt="" />
+            <img className='rounded-full w-40 m-auto shadow-lg shadow-white' src={photocv} alt="" />
 
         </div>
 
