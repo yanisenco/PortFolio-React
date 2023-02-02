@@ -89,6 +89,7 @@ module.exports = {
     },
 
     backgroundImage: {
+      'videoBackground': "url('../assets/video/video-etoile.mp4')",
       'home': "url('../assets/images/icons8-annuler-100.png')",
       'homeFull': "url('../assets/images/icons8-annuler-pleine-100.png')",
       'fondCode': "url('../assets/images/FondPageCodeConnu.svg')",

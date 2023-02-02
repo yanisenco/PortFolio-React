@@ -7,6 +7,7 @@ import IconPYTHON from 'src/assets/images/icons8-python.svg';
 import HeaderCodeConnu from 'src/components/organisme/HeaderCodeConnu';
 import BoutonCodeConnu from 'src/components/organisme/BoutonCodeConnu';
 import JsonData from 'src/assets/texte/données';
+import CardAnimated from 'src/components/molecule/cardAnimated/CardAnimated'
 
 
 const CodeConnu = () => {
@@ -20,7 +21,7 @@ const CodeConnu = () => {
             <BoutonCodeConnu ImageSource={IconHTML} ModalNameTitle={[JsonData.modHTML.title]} ModalNameContent={[JsonData.modHTML.content]} />
             <BoutonCodeConnu ImageSource={IconCSS} ModalNameTitle={[JsonData.modCSS.title]} ModalNameContent={[JsonData.modCSS.content]} />
             <BoutonCodeConnu ImageSource={IconPYTHON} ModalNameTitle={[JsonData.modPYTHON.title]} ModalNameContent={[JsonData.modPYTHON.content]} />
-
+            <CardAnimated/>
         </div >
 
     );

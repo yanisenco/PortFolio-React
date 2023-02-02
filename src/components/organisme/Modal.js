@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TripleBouton from 'src/components/molecule/TripleBouton';
+import TripleBouton from 'src/components/molecule/tripleBouton/TripleBouton';
 
 const PersonnalModal = (
     { ModalNameTitle, ModalNameContent, CloseButton }
