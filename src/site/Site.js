@@ -8,7 +8,7 @@ import Contact from 'src/pages/Contact';
 
 const Site = () => {
     return (
-        <div className="scroll-smooth">
+        <div>
             <Home />
             <NavBar />
             <CodeConnu />
