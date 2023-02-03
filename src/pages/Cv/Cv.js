@@ -2,6 +2,7 @@ import React from 'react';
 import { saveAs } from "file-saver";
 import data from 'src/assets/texte/cv'
 import CardCv from 'src/components/molecule/cardCv/CardCv';
+import style from 'src/pages/Cv/cv.css';
 
 
 
@@ -24,7 +25,9 @@ const parts = data.parts.map((part) => {
 const Cv = () => {
     return (
         <div id="cv">
-           {parts}
+            <div>
+                <div className="">{parts}</div>
+            </div>
         </div>
     );
 };

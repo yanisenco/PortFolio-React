@@ -9,9 +9,8 @@ const PersonnalModal = (
     const [contrast, setStateContrast] = useState(true);
 
     return (
-        <div className={contrast ? "fixed inset-0 bg-stone-700/[.8] duration-300" : "fixed inset-0 bg-stone-500/[.8] duration-300"}>
-            <div className={grow ? "fixed inset-0 bg-slate-900 duration-300" : "fixed h-5/6 w-5/6 bg-slate-900 rounded-xl duration-300"}>
-
+        <div className={contrast ? "fixed inset-0 bg-stone-700/[.8] duration-300" : "fixed inset-0 bg-stone-500/[.8] duration-300"} >
+            <div className={grow ? "fixed inset-0 bg-slate-900 ease-in-out duration-300" : "fixed h-5/6 w-5/6 m-24 bg-slate-900 rounded-xl ease-in-out duration-300 border-2 border-gray-600"}>
                 <TripleBouton
                     CloseButton={CloseButton}
                     MinimizeButton={setStateGrow}
@@ -21,8 +20,6 @@ const PersonnalModal = (
                     ContrastButtonColor='bg-green-600 hover:bg-green-900' />
                 <h5 className='text-slate-200 text-6xl text-center'>{ModalNameTitle}</h5>
                 <div className='text-slate-200 mt-5 text-4xl text-center'>{ModalNameContent}</div>
-
-
             </div >
         </div >
     );
