@@ -1,5 +1,6 @@
 import React from 'react';
 import interact from 'interactjs';
+import Console from 'src/components/atom/console/Console';
 
 const CardContact = () => {
 
@@ -37,7 +38,7 @@ const CardContact = () => {
   
         // minimum size
         interact.modifiers.restrictSize({
-          min: { width: 100, height: 50 }
+          min: { width: 200, height: 300 }
         })
       ],
   
@@ -58,18 +59,7 @@ const CardContact = () => {
     
         listeners: {
           // call this function on every dragmove event
-          move: dragMoveListener,
-    
-          // call this function on every dragend event
-          end (event) {
-            var textEl = event.target.querySelector('p')
-    
-            textEl && (textEl.textContent =
-              'moved a distance of ' +
-              (Math.sqrt(Math.pow(event.pageX - event.x0, 2) +
-                         Math.pow(event.pageY - event.y0, 2) | 0))
-                .toFixed(2) + 'px')
-          }
+          move: dragMoveListener
         }
       })
     
@@ -87,18 +77,10 @@ const CardContact = () => {
       target.setAttribute('data-y', y)
     }
     
-  
+
 
     return (
-        <div className="w-200 h-128 bg-[#0c0c0c] border border-[#393939]" id="invite-de-contact">
-            <div className="h-7 bg-white flex">
-                <div className="flex">
-                <h1 className="text-black">C:\_</h1>
-                <h1 className="text-black">invite de contact</h1>
-                </div>
-            </div>
-
-        </div>
+        <Console/>
     );
 };
 
