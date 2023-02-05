@@ -24,10 +24,8 @@ const parts = data.parts.map((part) => {
 
 const Cv = () => {
     return (
-        <div id="cv" className="bg-slate-900">
-            <div>
-                <div className="">{parts}</div>
-            </div>
+        <div id="cv">
+                <div>{parts}</div>
         </div>
     );
 };

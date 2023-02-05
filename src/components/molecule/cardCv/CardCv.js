@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 const CardCv = ({id, title, description}) => {
     return (
-        <div>
+        <div className={classNames("float","m-10")}>
             <div className={classNames("card","relative h-96 max-w-sm p-10 ease-in-out duration-700 hover:scale-110")} id={id}>
                 <div className={classNames("card-side front", "h-96 border-2 border-gray-600 rounded-xl ease-in-out duration-700 fixed w-10/12 p-4 text-white bg-gray-800 ")}>
                     <div>{title}</div>
