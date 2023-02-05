@@ -5,8 +5,11 @@ const PersonnalModal = (
     { ModalNameTitle, ModalNameContent, CloseButton }
 ) => {
 
+;
+
     const [grow, setStateGrow] = useState(false);
     const [contrast, setStateContrast] = useState(true);
+
 
     return (
         <div className={contrast ? "fixed inset-0 bg-stone-700/[.8] duration-300" : "fixed inset-0 bg-stone-500/[.8] duration-300"} >

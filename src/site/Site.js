@@ -1,7 +1,7 @@
 import React from 'react';
-import Home from 'src/pages/Home';
+import Home from 'src/pages/home/Home';
 import CodeConnu from 'src/pages/CodeConnu';
-import Cv from 'src/pages/Cv/Cv';
+import Cv from 'src/pages/cv/Cv';
 import NavBar from 'src/pages/NavBar';
 import Contact from 'src/pages/Contact';
 
@@ -12,7 +12,7 @@ const Site = () => {
             <Home />
             <NavBar />
             <CodeConnu />
-            <Cv />
+            {/* <Cv /> */}
             <Contact />
         </div>
     );

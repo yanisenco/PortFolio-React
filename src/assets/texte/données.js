@@ -10,21 +10,29 @@ export default {
         "icon": IconHTML,
         "title": "Hello HTML",
         "content": "I AM HTML CODER !!!",
+        "id": "html",
+        "anchor": "#html",
     },
     {
         "icon": IconCSS,
         "title": "Hello CSS",
         "content": "I AM CSS CODER !!!",
+        "id": "css",
+        "anchor": "#css",
     },
     {
         "icon": IconPython,
         "title": "Hello PYTHON",
         "content": "I AM PYTHON CODER !!!",
+        "id": "python",
+        "anchor": "#python",
     },
     {
         "icon": IconReact,
         "title": "Hello REACT",
         "content": "I AM REACT CODER !!!",
+        "id": "react",
+        "anchor": "#react",
     },
 ]
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { saveAs } from "file-saver";
 import data from 'src/assets/texte/cv'
 import CardCv from 'src/components/molecule/cardCv/CardCv';
-import style from 'src/pages/Cv/cv.css';
+import style from 'src/pages/cv/cv.css';
 
 
 
@@ -24,7 +24,7 @@ const parts = data.parts.map((part) => {
 
 const Cv = () => {
     return (
-        <div id="cv">
+        <div id="cv" className="bg-slate-900">
             <div>
                 <div className="">{parts}</div>
             </div>
