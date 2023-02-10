@@ -38,7 +38,7 @@ const CardContact = () => {
   
         // minimum size
         interact.modifiers.restrictSize({
-          min: { width: 200, height: 300 }
+          min: { width: 275, height: 300 }
         })
       ],
   
@@ -80,6 +80,7 @@ const CardContact = () => {
 
 
     return (
+      
         <Console/>
     );
 };
