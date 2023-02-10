@@ -6,7 +6,7 @@ import perso from 'src/assets/images/avatar.svg';
 const AboutMe = () => {
     return (
         <div>
-            <Title id={"contact"} titre={"A Propos de moi"} />
+            <Title id={"aboutme"} titre={"A Propos de moi"} />
             <div className="h-screen">
                 <img src={perso} className="shapePerso w-104" alt="" />
 

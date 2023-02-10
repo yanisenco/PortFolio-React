@@ -1,3 +1,22 @@
 .gradientBackground{
     background: linear-gradient(0deg, rgb(15 23 42), 60%,rgb(31 41 55));
 }
+
+.float{
+	animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
