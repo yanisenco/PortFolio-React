@@ -1,9 +1,9 @@
 import React from 'react';
+import classNames from 'classnames';
 
-
-const Title = ({titre,id}) => {
+const Title = ({titre,id,classname}) => {
     return (
-            <h1 className="text-white text-center text-9xl font-bold my-10" id={id}>{titre}</h1>
+            <h1 className={classNames("text-white text-center text-9xl font-bold",classname)} id={id}>{titre}</h1>
     );
 };
 

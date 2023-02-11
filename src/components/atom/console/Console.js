@@ -2,6 +2,9 @@ import React from 'react';
 import data from 'src/assets/texte/contact';
 import style from 'src/components/atom/console/console.css';
 import classNames from 'classnames';
+import cross from 'src/assets/images/cross.png';
+import line from 'src/assets/images/line.png';
+import square from 'src/assets/images/square.png';
 
 const Console = () => {
 
@@ -21,9 +24,9 @@ const Console = () => {
                     <h1 className="text-black">C:\_ invite de contact</h1>
                 </div>
                 <ul className="flex">
-                    <li className="px-4 py-0.5 hover:bg-gray-200">O</li>
-                    <li className="px-4 py-0.5 hover:bg-gray-200">-</li>
-                    <li className="px-4 py-0.5 hover:bg-gray-200">X</li>
+                    <li className="px-4 py-0.5 hover:bg-gray-200 m-auto"><img src={line} className="w-4 h-4"/></li>
+                    <li className="px-4 py-0.5 hover:bg-gray-200 m-auto"><img src={square} className="w-4 h-4"/></li>
+                    <li className="px-4 py-0.5 hover:bg-gray-200 m-auto"><img src={cross} className="w-4 h-4"/></li>
                 </ul>
                 
             </div>

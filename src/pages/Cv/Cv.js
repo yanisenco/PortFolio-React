@@ -26,7 +26,7 @@ const parts = data.parts.map((part) => {
 const Cv = () => {
     return (
         <>
-                <Title id={"cv"} titre={"Mon CV"} />
+                <Title id={"cv"} titre={"Mon CV"} classname="my-10"/>
                 <div className="grid grid-flow-col sm:grid-rows-3 md:grid-rows-2 lg:grid-rows-1">{parts}</div>
         </>
     );

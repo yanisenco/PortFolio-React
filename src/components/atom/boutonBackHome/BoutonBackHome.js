@@ -6,7 +6,7 @@ const BoutonBackHome = () => {
     return (
         <div className='navigation'>
             <button id="BoutonHome">
-                <NavLink to="/" className="TexteBouton">
+                <NavLink to="" className="TexteBouton">
                     Back to Home page
                 </NavLink>
             </button>

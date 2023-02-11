@@ -9,7 +9,7 @@ const Contact = () => {
     return (
 
         <div className={classNames("h-200 w-screen","invertGradientBackground")}>
-            <Title id={"contact"} titre={"Mes Contacts"} />
+            <Title id={"contact"} titre={"Mes Contacts"} classname="my-10"/>
             <CardContact />
         </div >
 

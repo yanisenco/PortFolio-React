@@ -12,7 +12,7 @@ const cards = data.cards.map((card) =>
 
     return (
 
-        <div className='w-screen flex flex-row' >
+        <div className='w-screen flex flex-row' id="navbar">
             {cards}
         </div >
 

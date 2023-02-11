@@ -12,7 +12,7 @@ const CodeConnu = () => {
     );
     return (
         <>
-        <Title titre={"Mes Compétences"} id={"competences"}/>
+        <Title titre={"Mes Compétences"} id={"competences"} classname="my-10"/>
         <div className='w-screen bg-fondCode bg-repeat-y bg-cover flex flex-col'>{cards}</div >
         </>
     );
