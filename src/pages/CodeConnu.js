@@ -1,6 +1,6 @@
 import React from 'react';
 import BoutonCodeConnu from 'src/components/organisme/BoutonCodeConnu';
-import data from 'src/assets/texte/données';
+import data from 'src/assets/texte/competences';
 import Title from 'src/components/atom/title/Title';
 
 

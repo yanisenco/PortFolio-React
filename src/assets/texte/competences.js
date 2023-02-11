@@ -8,28 +8,28 @@ export default {
     "codes" : [
     {
         "icon": IconHTML,
-        "title": "Hello HTML",
-        "content": "I AM HTML CODER !!!",
+        "title": "Projets en HTML",
+        "content": "Développement d'un site de recherche de stage durant 6 semaines",
         "id": "html",
         "anchor": "#html",
     },
     {
         "icon": IconCSS,
-        "title": "Hello CSS",
+        "title": "Projets en CSS",
         "content": "I AM CSS CODER !!!",
         "id": "css",
         "anchor": "#css",
     },
     {
         "icon": IconPython,
-        "title": "Hello PYTHON",
+        "title": "Projets en PYTHON",
         "content": "I AM PYTHON CODER !!!",
         "id": "python",
         "anchor": "#python",
     },
     {
         "icon": IconReact,
-        "title": "Hello REACT",
+        "title": "Projets en REACT",
         "content": "I AM REACT CODER !!!",
         "id": "react",
         "anchor": "#react",
