@@ -8,11 +8,13 @@ import Title from 'src/components/atom/title/Title';
 const Home = () => {
     return (
         <div className={classNames("h-screen w-screen","gradientBackground")}>
-            <Title titre={"Welcome to my Portfolio"}/>
-            <p>scroll for visiting my website</p>
-            <a href="#navbar" className='flex justify-center'>
-                <img src={slideDown} className='float w-16 absolute bottom-10 duration-300 hover:scale-110' alt="" />
-            </a>
+            <Title titre={"Welcome to my Portfolio"}/>  
+                <div className='flex justify-center'>
+                    <a href="#navbar" className='w-16 absolute bottom-10'>
+                        <p className="text-white w-48">scroll for visiting my website</p>
+                        <img src={slideDown} className='float duration-300 hover:scale-110' alt="" />
+                    </a>
+                </div>
         </div>
     );
 };

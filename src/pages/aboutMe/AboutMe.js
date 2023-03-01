@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <img src={perso} className="shapePerso w-104" alt="" />
 
                 <div className="text-white">
-                <p className="w-300">{data.presentation}</p>
+                <p className="max-w-6xl">{data.presentation}</p>
                 </div>
             </div>
             

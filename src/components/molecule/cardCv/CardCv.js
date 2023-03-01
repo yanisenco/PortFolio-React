@@ -11,7 +11,7 @@ const CardCv = ({id, title, description}) => {
                 </div>
                 <div className={classNames("card-side back", "h-96 border-4 border-gray-200 rounded-xl ease-in-out duration-700 fixed w-10/12 p-4 text-white bg-gray-800 ")}>
                 <ul>
-                    {description.map((description) => <li>{description}</li>)}
+                    {description.map((description) => <li className="mb-4 ml-2 list-disc">{description}</li>)}
                 </ul>
                 </div>
             </div>  
