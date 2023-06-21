@@ -4,12 +4,12 @@ import videoContact from 'src/assets/video/boule-de-plasma.mp4';
 export default {
     "cards": [
         {
-            "title": "Compétences",
+            "title": "Skills",
             "video": "ERROR404.mp4", 
             "anchor": "#competences",
         },
         {
-            "title": "CV",
+            "title": "Personal Resume",
             "video": videoCV, 
             "anchor": "#cv",
         },

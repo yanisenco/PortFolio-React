@@ -21,7 +21,7 @@ const Console = () => {
         <div className="w-200 h-128 bg-[#0c0c0c] border border-[#393939] drop-shadow-2xl" id="invite-de-contact">
             <div className="h-7 bg-white flex justify-between">
                 <div className="flex">
-                    <h1 className="text-black">C:\_ invite de contact</h1>
+                    <h1 className="text-black">C:\_ contact prompt</h1>
                 </div>
                 <ul className="flex">
                     <li className="px-4 py-0.5 hover:bg-gray-200 m-auto"><img src={line} className="w-4 h-4"/></li>
@@ -32,7 +32,7 @@ const Console = () => {
             </div>
             <div className={classNames("text-white font-['consolas']")}>
                 <p>Yanis Portfolio [version 2.0.19045.2364]</p>
-                <p>(c) Yanis Corporation. Tous droits réservés.</p>
+                <p>(c) Yanis Corporation. All rights reserved.</p>
                 <div className="mt-4">
                     {contacts}
                 </div>                

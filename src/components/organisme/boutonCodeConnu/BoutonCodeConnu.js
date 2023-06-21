@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import PersonnalModal from 'src/components/organisme/Modal';
+import style from 'src/components/organisme/boutonCodeConnu/boutonCodeConnu.css';
+import classNames from 'classnames';
+
 
 const BoutonCodeConnu = (
     { ImageSource, ModalNameTitle, ModalNameContent, Anchor, Id }
@@ -24,7 +27,7 @@ const BoutonCodeConnu = (
         <div id={Id} className="self-end mr-40">
         <a href={Anchor} >
             <button onClick={() => { setIsOpen(true); disableScroll()}} >
-                <img src={ImageSource} className="duration-300 hover:duration-300 hover:-rotate-12 hover:scale-110" alt=""/>
+                <img src={ImageSource} className={classNames("duration-300 hover:duration-300 hover:-rotate-12 hover:scale-110","breathing-button")} alt=""/>
             </button>
             {
                 openModal && <PersonnalModal ModalNameTitle={ModalNameTitle} ModalNameContent={ModalNameContent} CloseButton={activateScroll} />

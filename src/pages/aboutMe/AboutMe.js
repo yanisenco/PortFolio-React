@@ -7,7 +7,7 @@ import data from 'src/assets/texte/aboutme';
 const AboutMe = () => {
     return (
         <div>
-            <Title id={"aboutme"} titre={"A Propos de moi"} classname="my-10"/>
+            <Title id={"aboutme"} titre={"About Me"} classname="my-10"/>
             <div className="h-screen">
                 <img src={perso} className="shapePerso w-104" alt="" />
 

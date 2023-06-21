@@ -1,0 +1,20 @@
+.breathing-button {
+    animation: breathing 3s ease-out infinite normal;
+}
+.breathing-button:hover{
+    opacity: 70%;
+}
+
+@keyframes breathing {
+  0% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}

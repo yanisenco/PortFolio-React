@@ -1,29 +1,29 @@
 export default {
     "parts": [
         {
-            "title": "Diplômes",
+            "title": "Diplomas",
             "description": [
-                "Brevet des collèges mention bien (2017) au Collège St Joseph à Savenay", 
-                "Bac S mention bien (2020 - Option science de l’ingénieur) obtenu au Lycée Jacques Prévert à Savenay",
+                "High school diplomas with honors (2020 - Engineering Science option) obtained at the Lycée Jacques Prévert in Savenay.", 
+                "Computer enginering (current)",
             ], 
             "id": "diplome",
         },
         {
-            "title": "Projets",
+            "title": "Projects",
             "description": [
-                "Création d'un coffre-fort éléctronique, developpé en C arduino", 
-                "Crytpage de données avec python",
-                "Base de données sur MySQL.",
-                "Station météo embarqué en C arduino",
+                "Creation of an electronic safe, developed in C arduino", 
+                "Data encryption with python",
+                "MySQL database.",
+                "C arduino embedded weather station",
             ], 
             "id": "projets",
         },
         {
-            "title": "Alternance",
+            "title": "Apprenticeship",
             "description": [
-                "Stage à la direction informatique de la Banque Postale, qui m’a permis de découvrir plus de 5 métiers au sein d’un même service", 
-                "Stage de 15 semaines chez Capgemini en developpement web sur ReactJS. Sur un projet B2B pour l'ile de france mobilité",
-                "Alternance de 3 ans chez Capgemini afin de valider ma formation d'ingénieur."
+                "Internship with the IT department of Banque Postale, which enabled me to discover more than 5 different professions within the same department.", 
+                "15-week internship at Capgemini in web development on ReactJS. On a B2B project for the Ile de France mobility region.",
+                "3-year work-study program at Capgemini to validate my engineering training."
             ], 
             "id": "alternance",
         }

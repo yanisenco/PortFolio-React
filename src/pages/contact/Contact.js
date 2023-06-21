@@ -11,7 +11,7 @@ const Contact = () => {
     return (
 
         <div className={classNames("h-200 w-screen","invertGradientBackground")}>
-            <Title id={"contact"} titre={"Mes Contacts"} classname="my-10"/>
+            <Title id={"contact"} titre={"Contacts"} classname="my-10"/>
             <CardContact />
             <ImageTexte image={fleche} titre={"Moove and Resize"} />          
         </div >
