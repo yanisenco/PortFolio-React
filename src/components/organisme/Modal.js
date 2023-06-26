@@ -10,6 +10,13 @@ const PersonnalModal = (
     const [grow, setStateGrow] = useState(false);
     const [contrast, setStateContrast] = useState(true);
 
+    const bulletPoint = ModalNameContent.map((ModalNameContent) => {
+            return (
+                <li className='text-slate-200 mt-5 text-4xl ml-6'>{ModalNameContent}</li>
+            );
+        }
+    );
+
 
     return (
         <div className={contrast ? "fixed inset-0 bg-stone-700/[.8] duration-300" : "fixed inset-0 bg-stone-500/[.8] duration-300"} >
@@ -22,7 +29,9 @@ const PersonnalModal = (
                     MinimizeButtonColor='bg-orange-600 hover:bg-orange-900'
                     ContrastButtonColor='bg-green-600 hover:bg-green-900' />
                 <h5 className='text-slate-200 text-6xl text-center'>{ModalNameTitle}</h5>
-                <div className='text-slate-200 mt-5 text-4xl text-center'>{ModalNameContent}</div>
+                <ul>
+                    {bulletPoint}
+                </ul>
             </div >
         </div >
     );

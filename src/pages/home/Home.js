@@ -11,7 +11,7 @@ const Home = () => {
             <Title titre={"Welcome to my Portfolio"}/>  
                 <div className='flex justify-center'>
                     <a href="#navbar" className='w-16 absolute bottom-10'>
-                        <p className="text-white w-48">scroll for visiting my website</p>
+                        <p className="text-white w-48">scroll to visit my website</p>
                         <img src={slideDown} className='float duration-300 hover:scale-110' alt="" />
                     </a>
                 </div>

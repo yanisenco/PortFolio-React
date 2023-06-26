@@ -5,6 +5,14 @@ import perso from 'src/assets/images/avatar.svg';
 import data from 'src/assets/texte/aboutme';
 
 const AboutMe = () => {
+
+    const bulletPoint = data.presentation.map((presentation) => {
+        return (
+            <li className='text-slate-200 mt-5 text-xl m-16 list-none'>{presentation}</li>
+        );
+    }
+);
+
     return (
         <div>
             <Title id={"aboutme"} titre={"About Me"} classname="my-10"/>
@@ -12,7 +20,7 @@ const AboutMe = () => {
                 <img src={perso} className="shapePerso w-104" alt="" />
 
                 <div className="text-white">
-                <p className="max-w-6xl">{data.presentation}</p>
+                {bulletPoint}
                 </div>
             </div>
             
