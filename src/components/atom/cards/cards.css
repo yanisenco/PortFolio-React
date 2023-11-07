@@ -1,0 +1,9 @@
+.cards{
+    border-radius: 2rem;
+    box-shadow: 6px 6px 10px #0B3530, -6px -6px 10px #0D564F;
+}
+
+.inner-card{
+    padding: 20px;
+}
+

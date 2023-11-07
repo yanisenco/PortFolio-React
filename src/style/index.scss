@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Source+Sans+Pro:wght@200&display=swap');
-@import "./components/error404";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Source+Sans+Pro:wght@200&display=swap');
+// @import "./components/error404";
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
 
+@font-face {
+    font-family: 'Sweety';
+    src: url('../../src/assets/texte/Sweety.ttf') format('truetype');
+  }
 body {
     font-family: 'Source Sans Pro', sans-serif;
     -ms-overflow-style: none;
     scrollbar-width: none;
     overflow-y: scroll;
-    background-color: rgb(15 23 42);
+    background-color:#04181D;
 }
 
 body::-webkit-scrollbar {
@@ -28,4 +32,16 @@ video {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+a{
+    font-size: 2vw;
+}
+
+p{
+    font-size: 1vw;
 }

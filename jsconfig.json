@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "baseUrl": "C:/Users/yanis/OneDrive/PC-YANIS/Documents/Emploi/portfolio/PortFolio-React"
+        "baseUrl": "C:/dev/portfolio react/PortFolio-React"
     },
     "include": [
-        "C:/Users/yanis/OneDrive/PC-YANIS/Documents/Emploi/portfolio/PortFolio-React"
+        "C:/dev/portfolio react/PortFolio-React"
     ]
 }

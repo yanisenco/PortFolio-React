@@ -1,10 +1,23 @@
-.gradientBackground{
-    background: linear-gradient(0deg, rgb(15 23 42), 60%,rgb(31 41 55));
-}
+
 
 .float{
 	animation: float 3s ease-in-out infinite;
 }
+
+.bgPicImage{ 
+	background-image: url("src/assets/images/Accueil-portfolio-pic.png");
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
+.bgDevImage{ 
+	background-image: url("src/assets/images/Accueil-portfolio-dev.png");
+	background-size: cover;
+	background-position: center;
+	opacity: 90%;
+}
+
 
 @keyframes float {
 	0% {
@@ -19,4 +32,8 @@
 		
 		transform: translatey(0px);
 	}
+}
+
+.svg{
+	width: 40vw;
 }

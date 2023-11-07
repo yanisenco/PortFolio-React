@@ -2,7 +2,6 @@ import React from 'react';
 import { saveAs } from "file-saver";
 import data from 'src/assets/texte/cv'
 import CardCv from 'src/components/molecule/cardCv/CardCv';
-import style from 'src/pages/cv/cv.css';
 import Title from 'src/components/atom/title/Title';
 
 
